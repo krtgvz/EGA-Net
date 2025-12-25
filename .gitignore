@@ -6,6 +6,7 @@
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
 
 # ========= Jupyter =========
 .ipynb_checkpoints/
@@ -18,10 +19,10 @@ runs/
 outputs/
 logs/
 
-# ========= Temporary & logs =========
+# ========= Generated / logs =========
 *.log
-loss/**/*.txt
+loss/*.txt
+cond_paths_file_None_train.txt
 
 # ========= Dataset =========
 data/
-datasets/data/
