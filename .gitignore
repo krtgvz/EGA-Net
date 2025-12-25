@@ -1,0 +1,27 @@
+# ========= IDE =========
+.idea/
+.vscode/
+
+# ========= Python =========
+__pycache__/
+*.pyc
+*.pyo
+
+# ========= Jupyter =========
+.ipynb_checkpoints/
+
+# ========= Training outputs =========
+*.pth
+*.pt
+*.ckpt
+runs/
+outputs/
+logs/
+
+# ========= Temporary & logs =========
+*.log
+loss/**/*.txt
+
+# ========= Dataset =========
+data/
+datasets/data/
